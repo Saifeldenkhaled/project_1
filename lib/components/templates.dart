@@ -21,7 +21,7 @@ class template_content extends StatelessWidget {
          Text(title!,style:TextStyle(color:Colors.white,fontSize:30,fontWeight:FontWeight.bold),),
         if (title != null) const SizedBox(height: 30),
         if(discription!=null)
-          Text(discription!,style:TextStyle(color:Colors.white,fontSize:16,fontWeight:FontWeight.bold),),
+          Text(discription!,style:TextStyle(color:Colors.white54,fontSize:16,fontWeight:FontWeight.bold),),
       ],
     );
   }
